@@ -4,6 +4,19 @@ let gameId;
 let players = [];
 let time;
 
+//javascript
+// var gameform = document.getElementById("gameform"), button = document.getElementById("newgamebtn");
+// gameform.onsubmit = function() {
+//     return false;
+// }
+
+// button.onclick = function() {
+//  setTimeout(function() {
+//     gameform.submit();
+//  }, 5000);
+//    return false;
+// }
+
 // DOM ELEMENTS
 // Screens
 const screens = document.querySelectorAll('.screen');
@@ -156,3 +169,5 @@ restart = (event) => {
 newSessionBtn.addEventListener('click', newSession);
 newGameBtn.addEventListener('click', newGame);
 restartBtn.addEventListener('click', restart);
+
+

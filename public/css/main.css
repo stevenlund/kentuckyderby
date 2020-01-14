@@ -1,4 +1,10 @@
 /* Your board style here */
+.container {
+  background-image: url(/img/churchill.jpg);
+  height: 700px;
+  width: 960px;
+}
+
 .racer_table {
   margin: auto;
 }
@@ -6,7 +12,6 @@
 .racer_table td {
   height: 80px;
   width: 80px;
-  border: 1px solid whitesmoke;
 }
 
 .racer_table td.active {
@@ -39,4 +44,8 @@ td:last-child.active {
 
 #player2_race td:last-child.active {
   background-image: url(/img/player_2.png), url('/img/finish.png');
+}
+
+#text {
+  color: #007bff;
 }
