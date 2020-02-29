@@ -16,7 +16,7 @@ GEM
     rack (1.6.12)
     rack-protection (1.5.5)
       rack
-    rake (10.5.0)
+    rake (12.3.3)
     sequel (4.49.0)
     sinatra (1.4.8)
       rack (~> 1.5)
@@ -34,7 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   rabl (~> 0.10)
-  rake (~> 10.3)
+  rake (~> 12.3)
   sequel (~> 4.13)
   sinatra (~> 1.4)
   sqlite3 (~> 1.3)
